@@ -15,28 +15,28 @@
 <body>
 
     <header>
-        <div class="container logo-flex">
+        <div class="container container--flex">
             <nav class="site-nav">
                 <a href="./index.html" class="logo">
-                    <span class="logo accent">Web</span>Studio
+                    <span class="logo logo--accent">Web</span>Studio
                 </a>
                 <ul class="nav-list style-list">
-                    <li class="item"><a href="./index.html" class="list current first">Студія</a></li>
-                    <li class="item"><a href="./portfolio.html" class="list">Портфоліо</a></li>
-                    <li class="item"><a href="" class="list">Контакти</a></li>
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active first">Студія</a></li>
+                    <li class="nav-list__item"><a href="./portfolio.html" class="nav-list__link">Портфоліо</a></li>
+                    <li class="nav-list__item"><a href="" class="nav-list__link">Контакти</a></li>
                 </ul>
             </nav>
-            <div class="contacts-flex">
+            <div class="contacts--flex">
                 <ul class="header-contacts style-list">
-                    <li class="item">
-                        <a href="mailto:info@devstudio.com" class="list link-contacts"><svg width="16" height="12"
-                                class="svg-contacts mail">
+                    <li class="header-contacts__item">
+                        <a href="mailto:info@devstudio.com" class="header-contacts__link header-contacts__link--flex"><svg width="16" height="12"
+                                class="header-contacts__icon">
                                 <use href="./images/sprite.svg#email"></use>
                             </svg>info@devstudio.com</a>
     
                     </li>
-                    <li class="item">
-                        <a href="tel:+380961111111" class="list link-contacts"><svg width="10" height="16" class="svg-contacts tel">
+                    <li class="header-contacts__item">
+                        <a href="tel:+380961111111" class="header-contacts__link header-contacts__link--flex"><svg width="10" height="16" class="header-contacts__icon">
                                 <use href="./images/sprite.svg#smartphone"></use>
                             </svg>+38 096 111 11 11</a>
                     </li>
@@ -48,50 +48,50 @@
     <main>
         <section class="overlay">
             <div class="hero">
-                <h1 class="hero-title">Ефективні рішення для вашего бізнеса</h1>
-                <button data-modal-open type="button" class="btn-hero">Замовити послугу</button>
+                <h1 class="hero__title">Ефективні рішення для вашего бізнеса</h1>
+                <button data-modal-open type="button" class="hero__button">Замовити послугу</button>
             </div>
         </section>
 
-        <section class="benefits section padding-no">
+        <section class="benefits benefits--padding section">
             <div class="container">
-                <h2 class="visually-hidden">Переваги</h2>
-                    <ul class="benefits-list style-list"> 
+                <h2 class="benefits__title--visually-hidden">Переваги</h2>
+                    <ul class="benefits__list style-list"> 
                         <li class="benefit-card">
-                            <div class="benefit-img">
-                                <svg width="70" height="70" class="benefit-svg">
+                            <div class="benefit-card__visual">
+                                <svg width="70" height="70" class="benefit-card__icon">
                                     <use href="./images/sprite.svg#antenna"></use>
                                 </svg>
                             </div>
-                            <h3 class="title">Увага до деталей</h3>
-                            <p class="benefits-descr">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                            <h3 class="benefit-card__title">Увага до деталей</h3>
+                            <p class="benefit-card__descr">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                         </li>
                         <li class="benefit-card">
-                            <div class="benefit-img">
-                                <svg width="70" height="70" class="benefit-svg">
+                            <div class="benefit-card__visual">
+                                <svg width="70" height="70" class="benefit-card__icon">
                                     <use href="./images/sprite.svg#clock"></use>
                                 </svg>
                             </div>
-                            <h3 class="title">Пуктуальність</h3>
-                            <p class="benefits-descr">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                            <h3 class="benefit-card__title">Пуктуальність</h3>
+                            <p class="benefit-card__descr">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                         </li>
                         <li class="benefit-card">
-                            <div class="benefit-img">
-                                <svg width="70" height="70" class="benefit-svg">
+                            <div class="benefit-card__visual">
+                                <svg width="70" height="70" class="benefit-card__icon">
                                     <use href="./images/sprite.svg#diagram"></use>
                                 </svg>
                             </div>
-                            <h3 class="title">Планування</h3>
-                            <p class="benefits-descr">Так само консультація з широким активом значною мірою зумовлює.</p>
+                            <h3 class="benefit-card__title">Планування</h3>
+                            <p class="benefit-card__descr">Так само консультація з широким активом значною мірою зумовлює.</p>
                         </li>
                         <li class="benefit-card">
-                            <div class="benefit-img">
-                                <svg width="70" height="70" class="benefit-svg">
+                            <div class="benefit-card__visual">
+                                <svg width="70" height="70" class="benefit-card__icon">
                                     <use href="./images/sprite.svg#astronaut"></use>
                                 </svg>
                             </div>
-                            <h3 class="title">Сучасні технології</h3>
-                            <p class="benefits-descr">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                            <h3 class="benefit-card__title">Сучасні технології</h3>
+                            <p class="benefit-card__descr">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                         </li>
                     </ul>
             </div>
@@ -334,7 +334,7 @@
         <div class="container cont-footer">
             <div class="footer-colum1">
                 <a href="./index.html" class="logo footer">
-                    <span class="logo accent">Web</span>Studio
+                    <span class="logo logo--accent">Web</span>Studio
                 </a>
                 <address>
                     <ul class="footer-list style-list">
