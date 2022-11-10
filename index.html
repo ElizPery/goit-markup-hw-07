@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
 
@@ -26,7 +26,7 @@
                     <li class="nav-list__item"><a href="" class="nav-list__link">Контакти</a></li>
                 </ul>
             </nav>
-            <div class="contacts--flex">
+            <div class="contacts">
                 <ul class="header-contacts style-list">
                     <li class="header-contacts__item">
                         <a href="mailto:info@devstudio.com" class="header-contacts__link header-contacts__link--flex"><svg width="16" height="12"
@@ -53,9 +53,9 @@
             </div>
         </section>
 
-        <section class="benefits benefits--padding section">
+        <section class="benefits benefits--padding">
             <div class="container">
-                <h2 class="benefits__title--visually-hidden">Переваги</h2>
+                <h2 class="benefits__title">Переваги</h2>
                     <ul class="benefits__list style-list"> 
                         <li class="benefit-card">
                             <div class="benefit-card__visual">
@@ -380,7 +380,7 @@
             </div>
             <form class="form-follow">
                 <label for="follow-mail" class="form-follow__label">Підпишіться на розсилку</label>
-                <div class="form-follow--flex">
+                <div class="form-follow__group">
                     <input type="email" name="user-mail" id="follow-mail" class="form-follow__input" placeholder="E-mail">
                     <button type="submit" class="form-follow__button">Підписатися<span class="form-follow__icon"></span></button>
                 </div>
